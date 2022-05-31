@@ -1,0 +1,19 @@
+.divko{
+    height: 100%;
+}
+
+.divko > button{
+    background-color: green;
+    height: 100%;
+    aspect-ratio: 4/3;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,30%);
+}
+
+.divko > button:hover {
+    background-color: #4CAF50;
+}

@@ -1,0 +1,52 @@
+.jazero{
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+.navko{
+    color: yellow;
+    display: flex;
+    background-color: green;
+    border-bottom: 5px;
+    border-top-width: 5px;
+    padding: 5px 0px 5px 5px;
+    height: 80px;
+    margin-bottom: 3%;
+    min-width: 580px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,30%);
+}
+
+.navko >img {
+    image-rendering: pixelated;
+}
+
+.navko > h3{
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+}
+
+.ruka{
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.foooter{
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    color: yellow;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,50%);
+    text-align: center;
+}
+.foooter > div{
+    display: flex;
+    justify-content: center;
+}

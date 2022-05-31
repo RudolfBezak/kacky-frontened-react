@@ -1,0 +1,59 @@
+.navLista{
+    color: yellow;
+    display: flex;
+    background-color: green;
+    border-bottom: 5px;
+    border-top-width: 5px;
+    padding: 5px 0px 5px 5px;
+    height: 80px;
+    margin-bottom: 3%;
+    min-width: 580px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,30%);
+}
+
+.navLista > div{
+    width: 100%;
+}
+
+.navLista > div > h3{
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+}
+
+.navLista  > div > ul{
+    margin: 0px;
+    padding-top: 5px;
+    height: 60%;
+    padding-left: 15px;
+
+}
+
+.navLista > img{
+    image-rendering: pixelated;
+    height: 100%;
+}
+
+.buttony{
+    height: 100%;
+    display: flex;
+}
+
+.buttony > button{
+    height: 100%;
+    color: yellow;
+    background-color: green;
+    aspect-ratio: 4/3;
+    font-size: 70%;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,30%);
+}
+
+.buttony > button:hover{
+    background-color: #4CAF50; /* Green */
+    color: aqua;
+
+
+}

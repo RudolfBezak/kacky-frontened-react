@@ -1,0 +1,5 @@
+.plocha{
+    display: flex;
+    margin: auto;
+    min-width: 580px;
+}
